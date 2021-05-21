@@ -6,8 +6,8 @@ import spacy
 
 
 # Authenticates us and allows us to user the Twitter API
-TWITTER_API_KEY = os.getenv("TWITTER_API_KEY")
-TWITTER_API_KEY_SECRET = os.getenv("TWITTER_API_KEY_SECRET")
+TWITTER_API_KEY = "NRy0Y25xPOEOaBZ7xR6YuDwQf"
+TWITTER_API_KEY_SECRET = "qMNzhBjZXc5P6LOk4lEE1gn0tGGLJMexGf05RlcWAe3XO2AUzk"
 TWITTER_AUTH = tweepy.OAuthHandler(TWITTER_API_KEY, TWITTER_API_KEY_SECRET)
 api = tweepy.API(TWITTER_AUTH)
 
